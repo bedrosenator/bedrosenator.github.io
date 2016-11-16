@@ -1,0 +1,85 @@
+.date-picker {
+    width: 196px;
+}
+
+.datepicker-wrap {
+    width: 200px;
+    font-size: 1em;
+}
+
+.datepicker-wrap table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.datepicker-wrap table  td, table td {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+.datepicker-wrap table {
+    border-collapse: collapse;
+}
+.datepicker-wrap .next-month,
+.datepicker-wrap .prev-month {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.datepicker-wrap .next-month {
+}
+.datepicker-wrap .other-month-date {
+    font-style: italic;
+    color: #cccccc;
+}
+
+.datepicker-wrap .prev-month {
+    /*left: 5px;*/
+    /*top: 2px;*/
+}
+
+.datepicker-wrap .next-month a {
+    display: block;
+    width: 100%;
+}
+
+.datepicker-wrap .calendar-table a.not-active {
+    color: lightgray;
+}
+
+.datepicker-wrap td a.active, td.active{
+    background: #ccc;
+}
+.datepicker-wrap td a.not-active{
+    color: lightgray;
+    font-style: italic;
+}
+.datepicker-wrap td a:hover {
+    cursor: pointer
+}
+.datepicker-wrap td a {
+    padding: 0.2em;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+.month-name {
+    text-align: center;
+    width: 68%;
+}
+
+.hidden {
+    display: none;
+}
+
+.calendar-title {
+    text-align: center;
+}
+
+.calendar-header {
+    position: relative;
+    margin: 0 0 10px 0;
+    border: 1px solid #000;
+    padding: 6px 0;
+}
